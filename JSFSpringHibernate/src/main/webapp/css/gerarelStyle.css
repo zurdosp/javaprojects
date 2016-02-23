@@ -1,0 +1,124 @@
+.column1ManualQuery {
+	width: 48%;
+	float: left;
+	// border-style:solid;
+	// border-color: blue;
+	padding-top: 13px;
+}
+
+.fieldSets {
+	background-color: #F0F0F0;
+	width: 98%;
+	margin-top: 20px;
+}
+
+.fieldSetsValores {
+	background-color: #F0F0F0;
+	width: 98%;
+	margin-top: 20px;
+}
+
+.mainBody{
+	background-color: #B0B0B0;
+}
+
+.columnProspectoData{
+	width: 100%;
+	height: 80%;
+	float: left;
+	// border-style:solid;
+	// border-color: blue;
+	background-color: #D8D8D8;
+	padding-top: 13px;	
+}
+.column2ManualQuery {
+	width: 48%;
+	float: right;
+	// border-style:solid;
+	// color: blue;
+	padding-top: 13px;
+}	
+.column1{
+	width: 20%; 
+	float: inherit;
+	// border-style:solid;
+	// border-color: blue;
+	padding-top: 13px;
+}	
+.column2 {
+	width: 80%; 
+	float: inherit;
+	//border-style:solid;
+	padding-top: 13px;
+}
+.whereclauseFields {
+	width: 100%; 
+	float: right;
+	//border-style:solid;
+}
+.queryColumns {
+	width: 100%; 
+	float: right;
+	//border-style:solid;
+	padding: 0;
+}
+
+.queryColumnsOptions {
+	width: 50%; 
+	float: left;
+	height: 60px;
+	//border-style:solid;
+	padding: 10px;
+}
+
+
+.divMenu {
+	width: 100%;
+	float: inherit;
+	//border-style:solid;	
+}
+.mainDivManualQuery {
+	width: 100%;
+	// border-style:solid;
+	// border-color: red;
+	float: left;
+}
+.mainTitle {
+	width: 100%;
+	//border-style:solid;
+	//border-color: blue;
+	float: inherit;
+	padding: 10px;
+}
+.beginMainTitle {
+	width: 100%;
+	height:100%;
+	//border-style:solid;
+	//border-color: blue;
+	float: inherit;
+	padding: 10px;
+}
+.mainDiv {
+	width: 100%;
+	 // border-style:solid;
+	 // border-color: red;
+	height: 100%;
+}
+.beginMainDiv {
+	width: 100%;
+	height: 100%
+	// border-style:solid;
+	// border-color: red;
+	float: left;
+}
+
+.columnTableRelated {
+	text-align: left; padding-left: 0;
+}
+
+.ui-widget, .ui-widget, .ui-widget, .ui-datatable-data, .ui-widget-content, .ui-widget-input, 
+.ui-widget-select, .ui-widget-textarea, .ui-widget-button, .passwordClass, .ui-widget-header,
+.ui-inputfield {
+	font-size: 14px !important;
+}
+

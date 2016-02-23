@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<ui:include src="header.xhtml" />
+<h:body styleClass="mainBody">
+	<h:form id="form">
+		<p:dialog widgetVar="msgWait" header="Por favor aguarde !!!" resizable="false" modal="true" showEffect="fade" hideEffect="fade" 
+		closable="false" />
+		<p:dialog id="msgSucesso" header="operação relizada com sucesso !!!" widgetVar="dlg" resizable="false" showEffect="fade" 
+		closeOnEscape="true"/>			
+		<ui:include src="menuHeader.xhtml" />			   		
+			<p:dialog widgetVar="msgWait" header="Por favor aguarde !!!" resizable="false" modal="true" showEffect="fade" 
+				hideEffect="fade" closable="false" />
+			<div class="mainDiv">
+				<p:panel id="pnl" header="Manter dados da Nossa Empresa" toggleable="true" closable="true" toggleSpeed="500" closeSpeed="500" 
+					widgetVar="panel" rendered="true">
+				</p:panel>
+			</div>
+	</h:form>
+</h:body>
+</html>
