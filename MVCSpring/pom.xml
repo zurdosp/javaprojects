@@ -3,6 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.test</groupId>
   <artifactId>MVCSpring</artifactId>
+
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>MVCSpring Maven Webapp</name>
